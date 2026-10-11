@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "The Gradient That Top-k Distillation Never Computes"
+authors:
+  - name: "AUTHORS"
+preferred-citation:
+  type: article
+  title: "The Gradient That Top-k Distillation Never Computes"
+  authors:
+    - name: "AUTHORS"
+  journal: "arXiv preprint arXiv:XXXX.XXXXX"
+  year: 2026

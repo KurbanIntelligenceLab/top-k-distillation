@@ -1,0 +1,21 @@
+# conda env create -f environment.yml && conda activate hsc
+name: hsc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu130
+      - torch==2.13.0
+      - transformers==5.15.1
+      - datasets==5.0.1
+      - accelerate==1.14.0
+      - safetensors==0.8.0
+      - huggingface_hub==1.28.0
+      - numpy==2.4.6
+      - scipy==1.17.1
+      - scikit-learn==1.9.0
+      - sympy==1.14.0
+      - matplotlib==3.11.1
+      - pillow==12.3.0
